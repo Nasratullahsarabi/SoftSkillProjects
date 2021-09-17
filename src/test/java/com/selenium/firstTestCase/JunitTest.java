@@ -1,6 +1,6 @@
-package com.softSkill.firstTestCase;
+package com.selenium.firstTestCase;
 
-import com.softSkill.utility.TestBase;
+import com.selenium.utility.TestBase;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.openqa.selenium.By;

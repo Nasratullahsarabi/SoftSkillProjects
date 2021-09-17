@@ -1,4 +1,4 @@
-package com.softSkill.utility;
+package com.selenium.utility;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.WebDriver;

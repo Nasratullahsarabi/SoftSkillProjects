@@ -1,4 +1,4 @@
-package com.softSkill.secondTestCase;
+package com.selenium.secondTestCase;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.openqa.selenium.By;
