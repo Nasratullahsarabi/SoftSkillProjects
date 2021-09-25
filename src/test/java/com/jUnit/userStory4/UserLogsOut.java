@@ -17,7 +17,7 @@ public class UserLogsOut extends TestBase {
 //    Then verify user navigate back to login page.
 
     @Test
-    public void Test() throws InterruptedException {
+    public void userLogsOut() throws InterruptedException {
         driver.get("https://library2.cybertekschool.com/login.html");
         String user1 = "librarian51@library",
                 user2 = "librarian52@library",
