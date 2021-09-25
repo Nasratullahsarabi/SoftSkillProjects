@@ -38,13 +38,13 @@ public class LibrarianAddBook2 extends TestBase {
         System.out.println("before adding = " + driver.findElement(By.xpath("//div[@id='tbl_books_info']")).getText());
 
             driver.findElement(By.cssSelector("a[class='btn btn-lg btn-outline btn-primary btn-sm add_book_btn']")).click();
-            driver.findElement(By.cssSelector("input[name='name']")).sendKeys("Horror");
+            driver.findElement(By.cssSelector("input[name='name']")).sendKeys("History");
             Thread.sleep(1000);
-            driver.findElement(By.cssSelector("input[name='isbn']")).sendKeys("Horror");
+            driver.findElement(By.cssSelector("input[name='isbn']")).sendKeys("Ancient");
             Thread.sleep(1000);
-            driver.findElement(By.cssSelector("input[name='year']")).sendKeys("Horror");
+            driver.findElement(By.cssSelector("input[name='year']")).sendKeys("History");
             Thread.sleep(2000);
-            driver.findElement(By.cssSelector("input[name='author']")).sendKeys("Horror"+a);
+            driver.findElement(By.cssSelector("input[name='author']")).sendKeys("Ancient"+a);
             Thread.sleep(1000);
             Select bookCategori = new Select(driver.findElement(By.xpath("//select[@id='book_group_id']")));
             bookCategori.selectByIndex(a++);
