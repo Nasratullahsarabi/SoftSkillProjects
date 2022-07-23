@@ -9,5 +9,6 @@ public class GitPractice extends TestBase {
     public void test1(){
         System.out.println("To See what is this");
         //A in Master
+        //C in Master
     }
 }
