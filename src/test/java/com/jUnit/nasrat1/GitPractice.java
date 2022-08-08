@@ -11,5 +11,6 @@ public class GitPractice extends TestBase {
         // To see how branch works
         System.out.println("added");
         System.out.println("Second");
+        System.out.println("third");
     }
 }
