@@ -14,10 +14,12 @@ public class GitPractice extends TestBase {
         System.out.println("new change4");
         // Branch 4 changes
 
+        System.out.println("line branch6");
         int a =50;
-        String name = "title";
+        int b =40;
+        String name = "ahmad";
         String lastname = "Test Test";
-        double b = 100;
+
         System.out.println("New Changes");
 
     }
