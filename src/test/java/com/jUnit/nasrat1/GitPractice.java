@@ -10,11 +10,14 @@ public class GitPractice extends TestBase {
         System.out.println("To See what is this");
         // To see how branch works
 
-        System.out.println("hjkj3");
-        System.out.println("jkjhk3");
+        System.out.println("added4");
+        System.out.println("new change4");
+        // Branch 4 changes
         System.out.println("New Changes");
         System.out.println("Today New branch");
         System.out.println("August 13");
+        String name = "title";
+        String lastname = "Test Test";
         System.out.println("Conflict from Nasrat");
         System.out.println("New Changes");
 
