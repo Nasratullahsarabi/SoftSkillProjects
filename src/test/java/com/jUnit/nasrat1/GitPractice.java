@@ -17,6 +17,7 @@ public class GitPractice extends TestBase {
         System.out.println("Today New branch");
         System.out.println("August 13");
         String name = "title";
+        String lastname = "Test Test";
         System.out.println("Conflict from Nasrat");
         System.out.println("New Changes");
 
