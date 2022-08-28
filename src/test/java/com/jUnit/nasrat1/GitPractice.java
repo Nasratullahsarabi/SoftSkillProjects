@@ -20,7 +20,9 @@ public class GitPractice extends TestBase {
         String name = "ahmad";
         String lastname = "Test Test";
 
-        System.out.println("New Changes");
+        double b = 100;
+        System.out.println("New Prac");
 
+        System.out.println("New Changes");
     }
 }
